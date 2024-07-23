@@ -30,7 +30,7 @@ export default function Hero() {
       sx={{
         backgroundColor: "#fffff",
         paddingBottom: { xs: 8, md: 12 },
-        paddingTop: { xs: 12, md: 16 },
+        paddingTop: { xs: 18, md: 16 },
         marginBottom: { xs: 8, md: 12 },
         marginTop: { xs: 20, md: 0 },
       }}
@@ -47,9 +47,9 @@ export default function Hero() {
           borderRadius: "20px",
           boxShadow:
             "0 1px 2px hsla(210, 0%, 0%, 0.05), 0 2px 12px hsla(210, 100%, 80%, 0.5)",
-          backgroundImage: `url(${Bg})`, // Menambahkan gambar latar belakang
-          backgroundSize: "cover", // Mengatur ukuran gambar latar belakang
-          backgroundPosition: "center", // Mengatur posisi gambar latar belakang
+          backgroundImage: `url(${Bg})`, 
+          backgroundSize: "cover", 
+          backgroundPosition: "center", 
           backgroundRepeat: "no-repeat",
           width: "auto",
           height: "auto",
@@ -68,10 +68,22 @@ export default function Hero() {
             textAlign: { xs: "center", md: "left" },
           }}
         >
-          <Typography variant="h2" gutterBottom>
+          <Typography 
+            variant="h2" 
+            gutterBottom
+            sx={{
+              fontSize: { xs: '2rem', md: '3rem' },
+            }}
+          >
             Travel, enjoy and live a new and full life.
           </Typography>
-          <Typography variant="h6" paragraph>
+          <Typography 
+            variant="h6" 
+            paragraph
+            sx={{
+              fontSize: { xs: '1rem', md: '1.25rem' },
+            }}
+          >
             Built Wicket longer admire do barton vanity itself do in it.
             Preferred to sportsmen it engrossed listening. Park gate sell they
             west hard for the.{" "}
@@ -81,7 +93,7 @@ export default function Hero() {
             color="primary"
             onClick={() => scrollToSection("category")}
             sx={{
-              p: { sm: 1, md: 2 },
+              p: { xs: 1, md: 2 },
               alignItems: "flex",
             }}
           >

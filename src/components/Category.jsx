@@ -44,9 +44,9 @@ export default function Category() {
       marginX={1}
       sx={{
         backgroundColor: "#fffff",
-        paddingBottom: { xs: 8, md: 12 },
-        marginBottom: { xs: 8, md: 12 },
-        paddingTop: {xs:8, md:8},
+        paddingBottom: { xs: 8, md: 5 },
+        marginBottom: { xs: 8, md: 5 },
+        paddingTop: {xs:10, md:0.5},
       }}
     >
       <Box

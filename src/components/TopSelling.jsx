@@ -46,10 +46,10 @@ export default function TopSelling() {
       marginX={1}
       sx={{
         backgroundColor: "#fffff",
-        paddingBottom: { xs: 8, md: 12 },
-        marginBottom: { xs: 8, md: 12 },
-        paddingTop: { xs: 45, md: 8 },
-        marginTop: { xs: 45, md: 8 },
+        paddingBottom: { xs: 60, md: 2 },
+        marginBottom: { xs: 60, md: 2 },
+        paddingTop: { xs: 60, md: 0.1 },
+        marginTop: { xs: 45, md: 0.1 },
         paddingX: { xs: 10, md: 0 },
       }}
     >

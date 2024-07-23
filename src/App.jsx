@@ -11,7 +11,9 @@ import AppAppBar from "./components/AppAppBar";
 import Hero from "./components/Hero";
 import Category from "./components/Category";
 import TopSelling from "./components/TopSelling";
+import EasyandFast from "./components/EasyandFast";
 import Testimonials from "./components/Testimonials";
+import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 import getLPTheme from "./getLPTheme";
 
@@ -76,7 +78,9 @@ export default function LandingPage() {
         <Hero />
         <Category />
         <TopSelling />
+        <EasyandFast/>
         <Testimonials />
+        <FAQ/>
         <Footer />
       </Box>
     </ThemeProvider>

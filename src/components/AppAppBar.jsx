@@ -78,7 +78,7 @@ function AppAppBar({ mode, toggleColorMode }) {
                 variant="text"
                 color="info"
                 size="large"
-                onClick={() => scrollToSection("booking")}
+                onClick={() => scrollToSection("easyandfast")}
               >
                 Booking
               </Button>
@@ -138,7 +138,7 @@ function AppAppBar({ mode, toggleColorMode }) {
                 <MenuItem onClick={() => scrollToSection("topselling")}>
                   Top Selling
                 </MenuItem>
-                <MenuItem onClick={() => scrollToSection("booking")}>
+                <MenuItem onClick={() => scrollToSection("easyandfast")}>
                   Booking
                 </MenuItem>
                 <MenuItem onClick={() => scrollToSection("testimonials")}>
