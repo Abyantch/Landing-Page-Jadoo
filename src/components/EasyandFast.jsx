@@ -1,3 +1,4 @@
+import React from 'react';
 import Image1 from "../assets/Image.png";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -6,8 +7,12 @@ import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlane, faHotel, faPassport } from "@fortawesome/free-solid-svg-icons";
+import { useTheme } from "@mui/material/styles";
 
 export default function EasyandFast() {
+  const theme = useTheme();
+  const isDarkMode = theme.palette.mode === "dark";
+
   return (
     <Box
       id="easyandfast"
@@ -18,11 +23,12 @@ export default function EasyandFast() {
       justifyContent="start"
       paddingX={{ xs: 7, sm: 5, md: 20 }}
       sx={{
-        backgroundColor: "#ffffff",
+        backgroundColor: isDarkMode ? "#000000" : "#ffffff",
+        color: isDarkMode ? "#ffffff" : "#000000",
         marginBottom: { xs: 8, md: 12 },
         paddingBottom: { xs: 8, md: 12 },
         paddingTop: { xs: 60, md: 5 },
-        marginTop: { xs: 60, md:5 },
+        marginTop: { xs: 60, md: 5 },
       }}
     >
       <Grid container spacing={10}>
